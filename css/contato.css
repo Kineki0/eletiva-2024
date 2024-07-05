@@ -1,0 +1,141 @@
+.conteudo{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content:space-between;
+  width:100%;
+}
+.conteudo section{
+width:50%
+}
+.conteudo-form{
+  background-color: #e5e4e3;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content:space-around;
+  align-content: center;
+  width:100%;
+  
+}
+.conteudo__form__titulo{
+  color: #333;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 700px;
+  font-size: 30px;
+  padding: 2px;
+  margin: 2px;
+}
+
+.conteudo__icones{
+  display: flex;
+  justify-content: space-around;
+  background-color: #1fd2ff;
+}
+.conteudo__icones div{
+  text-align: center;
+  margin: auto;
+}
+.conteudo__icones img{
+width: 90px;
+}
+
+.conteudo__form form{
+  text-align: center;
+}
+
+
+.conteudo__formulario input, .conteudo__formulario textarea{
+  background-color: #e5e4e3 ;
+  padding: 5px;
+  margin: 2px;
+  border: none;
+  border-bottom: 1px solid black;
+  width: 50%;
+  margin-bottom: 10px;
+
+}
+
+.conteudo__formulario textarea{
+  height: 100px;
+}
+
+#btnEnviar{
+  padding: 10px 30px;
+  border-radius: 15px;
+  border: none;
+  background-color: #2b38f3;
+  color:white;
+  font-weight: 700px;
+}
+
+.conteudo__img{
+
+}
+.conteudo__img img{
+  width: 100%;
+
+}
+
+.perfil{
+  display: flex;
+  width: 30%;
+  margin-top: 5px;
+  color: #333;
+  font-family: 'Courier New', Courier, monospace;
+  align-content: center;
+
+
+
+}
+
+.perfil__foto img{
+  width: 250px;
+  border-radius: 50%;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+
+}
+
+.saudacao{
+  width: 250px;
+  background-color: #2364fb;
+  padding: 5px 10px 5px 20px;
+  font-size: 30px;
+  text-align: left !important;
+  color:white;
+}
+
+.perfil__nome p{
+  font-size: 25px;
+  text-align: right;
+}
+
+.perfil__nome h2{
+  padding-left: 15px;
+  font-size: 32px;
+}
+.about{
+  font-family: 'Courier New', Courier, monospace;
+  width: 80%;
+  margin: 2px;
+  font-style: italic;
+  background-color: rgba(229, 228, 227, 0.5);
+  border-radius: 15px;
+  padding: 20px;
+
+}
+.habilidades{
+  align-self:center;
+  margin-top: 15px;
+  font-family: 'Courier New', Courier, monospace;
+  color: #333;
+  text-align: left;
+  font-size: 20px;
+}
+
+.conteudo__index{
+  margin: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-around;
+
+}

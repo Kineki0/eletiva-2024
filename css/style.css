@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  background-color: rgb(199, 235, 240);
+}
+.barra {
+  width: 100%;
+  background-color: #7b3bf1;
+  box-shadow: 0.5px 0.5px 6px rgba(0, 0, 0, 0.5);
+  font-family: 'gill sans', 'gill sans mt', 'calibri', 'trebuchet ms', sans-serif;
+  display: flex;
+  justify-content: space-between;
+}
+.dark-mode {
+  background-color: #333; /* Cor de fundo no modo escuro */
+  color: #fff; /* Cor do texto no modo escuro */
+}
+.barra__nav {
+  font-size: 30px;
+  padding-top: 9px;
+  margin: auto 2% 15px auto;
+}
+.barra__container__titulo {
+  padding: 5px;
+  margin-left: 20px;
+  color: #333;
+  font-size: 25px;
+}
+.barra__nav a:hover {
+  background-color: #fff;
+  border-radius: 20000202px;
+}
+.barra__nav a {
+  text-decoration: none;
+  padding: 10px;
+  color: #333;
+}
+h3{
+  margin-left:70px ;
+  margin-right: 70px;
+}
+checkbox{
+  background-image: url(../CbW3ILE8QGqE5-cOi2-X5Q.);
+}
+.conteudo__img{
+
+}
+.conteudo__img img{
+  width: 100%;
+
+}
+
+.perfil{
+  display: flex;
+  width: 30%;
+  margin-top: 5px;
+  color: #333;
+  font-family: 'Courier New', Courier, monospace;
+  align-content: center;
+
+
+
+}
+
+.perfil__foto img{
+  width: 250px;
+  border-radius: 50%;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+
+}
+
+.saudacao{
+  width: 250px;
+  background-color: #2364fb;
+  padding: 5px 10px 5px 20px;
+  font-size: 30px;
+  text-align: left !important;
+  color:white;
+}
+
+.perfil__nome p{
+  font-size: 25px;
+  text-align: right;
+  text-color: #1650fe;
+}
+
+.perfil__nome h2{
+  padding-left: 15px;
+  font-size: 32px;
+  text-color: #1650fe
+}
+h2{
+  text-color: #1650fe
+}
+.about{
+  font-family: 'Courier New', Courier, monospace;
+  width: 80%;
+  margin: 2px;
+  font-style: italic;
+  background-color: rgba(229, 228, 227, 0.5);
+  border-radius: 15px;
+  padding: 20px;
+
+}
+.habilidades {
+  align-self:center;
+  margin-top: 15px;
+  font-family: 'Courier New', Courier, monospace;
+  color: #333;
+  text-align: left;
+  font-size: 20px;
+}
+
+.conteudo__index{
+  margin: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-around;
+
+}
+li::marker{
+  content: "😑";
+}
